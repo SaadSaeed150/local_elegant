@@ -26,6 +26,7 @@ class AgentSAC(AgentBase):  # [ElegantRL.2021.11.11]
         self.ClassAct = ActorSAC
         self.if_use_cri_target = True
         self.if_use_act_target = False
+        self.if_off_policy = False
 
         self.alpha_log = None
         self.alpha_optim = None
